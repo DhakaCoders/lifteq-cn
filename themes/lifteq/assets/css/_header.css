@@ -15,6 +15,10 @@ header.header{
 	width: 50%;
 }
 
+.logo{
+	display: flex;
+	align-items: center;
+}
 .logo a{
 	display: inline-block;
 	vertical-align: baseline;
@@ -85,23 +89,7 @@ nav.main-nav ul li a{
 nav.main-nav ul li a:hover{
 	color: #12a19a;
 }
-nav.main-nav > ul{
 
-}
-nav.main-nav > ul > li{
-
-}
-nav.main-nav > ul > li > a{
-
-}
-
-nav.main-nav > ul > li.current-menu-item > a{
-
-}
-
-nav.main-nav > ul > li.menu-item-has-children > a{
-
-}
 
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	position: absolute;
@@ -202,4 +190,21 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 .btn-ctlr ul li a:hover{
 	background: #cb0b14;
 	border-color: #cb0b14;
+}
+
+
+@media(max-width: 1399px){
+	.hdr-lft{
+		width: 46%;
+	}
+	.hdr-rgt{
+		width: 54%;
+	}
+	.logo a{
+		max-width: 200px;
+		width: 100%;
+	}
+	.logo span{
+		margin-left: 25px;
+	}
 }
