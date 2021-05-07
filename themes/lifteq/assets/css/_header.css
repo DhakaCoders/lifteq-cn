@@ -97,7 +97,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
     left: 0;
     min-width: 150px;
     padding: 10px 0;
-    background: #d3d3d3;
+    background: #12a19a;
     transform: scale3d(1,0,1);
     -ms-transform: scale3d(1,0,1);
     -webkit-transform: scale3d(1,0,1);
@@ -130,7 +130,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:after{
 	top: 0;
 	bottom: 0;
 	display: block;
-	border-left: 1px solid #15B615;
+	border-left: 1px solid #e5e5e5;
 	width: 1px;
 	left: 0;
 	transform: scale(1,0);
@@ -156,7 +156,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a{
 	padding-bottom: 0;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
-	color: #12a19a;
+	color: #fff;
 }
 
 
