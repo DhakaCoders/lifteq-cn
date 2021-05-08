@@ -16,11 +16,14 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
-    color: #000000;
-    font-size: 18px;
+    background: #ffffff;
+    color: #b3b3b3;
+    font-size: 20px;
     line-height: 24px;
-     font-family: 'Candara';
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
 }
 p{
 	line-height: 1.2;
@@ -28,7 +31,7 @@ p{
 }
 ::selection {
   color: #fff;
-  background: #512C36;
+  background: #12a19a;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
@@ -96,7 +99,7 @@ Containers
 
 }
 .container{
-	max-width: 1200px;
+	max-width: 1305px;
 	width: 100%;
 }
 .container-md{
@@ -199,6 +202,14 @@ ul.sub-menu li:before,
 ul.ab-top-menu li:before,
 .fl-pagination-ctlr ul li:before{
 	content: none!important;
+}
+
+
+a{
+	color: #12a19a;
+}
+strong{
+	font-weight: 700;
 }
 
 
