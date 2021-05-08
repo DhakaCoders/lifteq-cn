@@ -206,7 +206,28 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
   /*start of Niaz*/
-
+  if( $('.main-img-crtlr').length ){
+   $('.main-img-crtlr').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    fade: true,
+    autoplay:true,
+    asNavFor: '.thumbnails-cntlr .thumbnails',
+     prevArrow: $('.fl-singgle-pro-prev'),
+    nextArrow: $('.fl-singgle-pro-next'),
+  });
+    $('.thumbnails-cntlr .thumbnails').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.main-img-crtl',
+      dots: false,
+      arrows: true,
+      autoplay:true,
+      focusOnSelect: true,
+      vertical: true,
+    });
+  }
 
   /*start of Shariful*/
 
