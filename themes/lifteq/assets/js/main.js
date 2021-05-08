@@ -231,6 +231,22 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
   /*start of Shariful*/
 
+  if (windowWidth <= 991) {
+    $('.hambergar-icon').on('click', function(e){
+      $('.xs-menu-ctlr').toggleClass('opacity-1');
+      $('.bdoverlay').toggleClass('active');
+      $('body').toggleClass('active-scroll-off');
+      $(this).toggleClass('active-collapse');
+    });
+    $('li.menu-item-has-children > a').on('click', function(e){
+        e.preventDefault();
+      //$('li.menu-item-has-children .sub-menu').slideUp(300);
+      $(this).next().slideToggle(300);
+      $(this).toggleClass('sub-menu-active');
+      
+    });
+
+  }
   
 
     new WOW().init();
