@@ -373,12 +373,14 @@ ul li {
     content: "";
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 5px;
     width: 22px;
     height: 18px;
     background: url(../images/common-ul-img.png);
     border-radius: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:100% auto;
 }
 ul li.refGridItem:before{
 	display: none;
