@@ -361,20 +361,24 @@ ul{
 }
 .default-page-con ul li,
 ul li {
-	padding: 5px 0 15px 18px;
-	position: relative;
-	line-height: 24px;
+	padding: 2px 0 2px 28px;
+    position: relative;
+    line-height: 24px;
+    color: #45454c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
 }
 
 .default-page-con ul li::before, ul li::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 12px;
-    width: 8px;
-    height: 8px;
-    background: #D2232A;
+    top: 7px;
+    width: 22px;
+    height: 18px;
+    background: url(../images/common-ul-img.png);
     border-radius: 100%;
+    background-repeat: no-repeat;
 }
 ul li.refGridItem:before{
 	display: none;
