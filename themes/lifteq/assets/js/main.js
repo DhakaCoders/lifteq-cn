@@ -232,11 +232,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
   /*start of Shariful*/
 
   if (windowWidth <= 991) {
-    $('.hambergar-icon').on('click', function(e){
-      $('.xs-menu-ctlr').toggleClass('opacity-1');
-      $('.bdoverlay').toggleClass('active');
-      $('body').toggleClass('active-scroll-off');
-      $(this).toggleClass('active-collapse');
+    $('.xs-hambergar').on('click', function(e){
+      $('body').toggleClass('allWork');
     });
     $('li.menu-item-has-children > a').on('click', function(e){
         e.preventDefault();
