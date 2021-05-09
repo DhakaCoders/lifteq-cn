@@ -1,0 +1,35 @@
+.fl-product-grd-2 .fl-product-grd{
+	padding: 8px 7px;	
+}
+.fl-product-grd-2 .fl-product-grd-inr{
+	padding: 0;
+	background-color: #f5f4f4;
+	height: 100%;
+	padding: 14px;
+}
+.fl-pro-grd-des > ul{
+
+}
+.fl-pro-grd-des > ul > li{
+	padding-left: 9px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	position: relative;
+	line-height: 1.3;
+}
+.fl-pro-grd-des > ul > li:after{
+	content: "";
+	position: absolute;
+	background-image: url('../images/homepage-li-dash.png');
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 2px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+.fl-product-grd-2 .fl-pro-grd-title{
+	margin-bottom: 10px;
+}
