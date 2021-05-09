@@ -378,9 +378,9 @@ ul li {
     height: 18px;
     background: url(../images/common-ul-img.png);
     border-radius: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:100% auto;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position:100% auto!important;
 }
 ul li.refGridItem:before{
 	display: none;
