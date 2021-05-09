@@ -1,0 +1,132 @@
+
+#dienstenDetails.default-page-con{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#dienstenDetails .dfp-promo-module-hdr{
+	display: flex;
+	align-items: center;
+	margin-bottom:33px;
+}
+#dienstenDetails .dfp-promo-icon{
+	margin-left: auto;
+	order: 2;
+}
+#dienstenDetails .dfp-promo-icon i{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+#dienstenDetails .dfp-back-btn{
+	padding: 40px 0;
+	border-top: 2px solid #F8F8F8;
+}
+#dienstenDetails .dfp-back-btn a,
+#faq-details .dfp-back-btn a,
+.xs-faq-details .dfp-back-btn a{
+	padding-left: 20px;
+	color: #707C88;
+	text-decoration: none;
+	font-weight: 400;
+	position: relative;
+}
+#dienstenDetails .dfp-back-btn a i,
+#faq-details .dfp-back-btn a i,
+.xs-faq-details .dfp-back-btn a i{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+#dienstenDetails .dfp-back-btn a:hover,
+#faq-details .dfp-back-btn a:hover,
+.xs-faq-details .dfp-back-btn a:hover{
+	color: #2285E3;
+}
+#dienstenDetails .dfp-back-btn a:hover svg,
+#faq-details .dfp-back-btn a:hover svg,
+.xs-faq-details .dfp-back-btn a:hover svg{
+	fill: #2285E3;
+}
+/*#dienstenDetails .dfp-back-btn a:after,
+#faq-details .dfp-back-btn a:after,
+.xs-faq-details .dfp-back-btn a:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	background: url('../images/dfp-back-btn-icon.svg');
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	width: 8px;
+	height: 14px;
+}
+*/
+
+.diensten-details-ctlr .mtc-faq-sec {
+    padding-top: 85px;
+    padding-bottom: 65px;
+    background: #F8F8F8;
+}
+.diensten-details-ctlr .mtc-faq-entry-title{
+	margin-bottom: 20px;
+}
+.diensten-details-ctlr .mct-faq-accordion-ctlr ul li{
+	padding-bottom: 30px;
+}
+
+#dienstenDetails .dfp-promo-module h1, 
+#dienstenDetails .dfp-promo-module-title{
+	margin-bottom: 0px;
+}
+@media(max-width: 991px){
+	#dienstenDetails .dfp-back-btn {
+	    padding: 30px 0;
+	}
+	.diensten-details-ctlr .mtc-faq-sec {
+	    padding-top: 60px;
+	    padding-bottom: 50px;
+	}
+}
+@media(max-width: 767px){
+	#dienstenDetails .dfp-promo-module-hdr {
+	    display: block;
+	}
+	#dienstenDetails .dfp-promo-icon{
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	#dienstenDetails.default-page-con {
+	    padding-top: 30px;
+	}
+	#dienstenDetails .dfp-back-btn {
+	    padding: 18px 0 0;
+	}
+	.diensten-details-ctlr .mtc-faq-sec {
+	    padding-top: 40px;
+	    padding-bottom: 30px;
+	}
+	.diensten-details-ctlr .mct-faq-accordion-ctlr ul li {
+	    padding-bottom: 20px;
+	}
+	#dienstenDetails .dfp-promo-module h1, 
+	#dienstenDetails .dfp-promo-module-title {
+	    margin-bottom: 30px;
+	}
+	#dienstenDetails .dfp-back-btn a i, #faq-details .dfp-back-btn a i, .xs-faq-details .dfp-back-btn a i{
+		margin-top:-1px;
+	}
+}
+@media(max-width: 575px){
+	.diensten-details-ctlr .mct-faq-accordion-ctlr ul li {
+	    padding-bottom: 10px;
+	}
+	.diensten-details-ctlr .mtc-faq-sec {
+	    padding-top: 30px;
+	}
+}
