@@ -280,6 +280,13 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 }
 @media(max-width: 991px){
+	.hdr-lft{
+		padding-top: 12px;
+		border-top: none;
+	}
+	.header-inr {
+	    margin-bottom: 20px;
+	}
 	.hdr-rgt{
 		display: none;
 	}
@@ -525,5 +532,26 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 }
 @media(max-width: 359px){
-	
+	.hdr-lft{
+		display: inline-block;
+		vertical-align: baseline;
+	}
+	.logo{
+		display: inline-block;
+		vertical-align: baseline;
+		max-width: 160px;
+		width: 100%;
+		padding-right: 20px;
+	}
+	.logo span{
+		font-size: 15px;
+		margin-top: 5px;
+	}
+	.xs-contact{
+		display: inline-block!important;
+		vertical-align: baseline;
+	}
+	.xs-contact.show-md{
+		display: inline-block!important;
+	}
 }
