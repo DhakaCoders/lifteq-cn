@@ -503,6 +503,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	.xs-hambergar-ctlr{
 		width: 25%;
 	}
+	.xs-menu-wrap{
+		margin-bottom: 20px;
+	}
 }
 @media(max-width: 575px){
 	.xs-btn {
@@ -511,6 +514,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	.xs-hambergar-ctlr{
 		width: 30%;
 	}
+	.xs-menu-wrap{
+		margin-bottom: 12px;
+	}
 }
 @media(max-width: 479px){
 	.xs-btn {
@@ -518,6 +524,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 	.xs-hambergar-ctlr{
 		width: 48%;
+	}
+	.xs-menu-wrap{
+		margin-bottom: 8px;
 	}
 }
 @media(max-width: 359px){
