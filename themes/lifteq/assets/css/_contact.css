@@ -91,17 +91,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e61c29;
-    border: 2px solid #e61c29;
+    background: #12a19a;
+    border: 2px solid #12a19a;
     font-size: 16px;
     line-height: 19px;
     padding: 10px 5px;
     color: #fff;
     letter-spacing: 2px;
+    font-weight: 700;
 }
 .cnt-form-btn:hover{
 	background: transparent;
-	color: #e61c29;
+	color: #3c3c3b;
 }
 
 
