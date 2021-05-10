@@ -475,6 +475,7 @@ body.single-product div.product form.cart .button{
     font-weight: 700;
     font-size: 23px;
     text-transform: capitalize!important;
+    cursor:pointer;
 }
 body.single-product div.product form.cart .button:hover{
     background: #000000!important;
