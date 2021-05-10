@@ -36,3 +36,51 @@
 .fl-product-grd-2 .fl-pro-grd-title{
 	margin-bottom: 10px;
 }
+/* 
+breadcrumb
+*/
+.breadcrumb-sec{
+	padding-top: 8px;
+	padding-bottom: 22px;
+}
+.breadcrumb-cntlr{
+	padding-left: 9px;
+}
+.breadcrumb-cntlr ul {
+	display: flex;
+	align-items: center;
+	margin: 0 -7px;
+}
+.breadcrumb-cntlr ul li{
+	padding: 0 7px;
+	position: relative;
+	line-height: 11px;
+}
+.breadcrumb-cntlr ul li:not(:last-child):after{
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 4px;
+	background-image: url('../images/brdcum-arrow.png');
+	background-repeat: no-repeat;
+	right: 0;    
+    top: 50%;
+    margin-top: 2px;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+}
+.breadcrumb-cntlr ul li span{
+	color: #656564;
+	font-size: 14px;
+	line-height: 11px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.breadcrumb-cntlr ul li span:hover, .breadcrumb-cntlr ul li.active span{
+	color: #12a19a;
+}
+.home .entry-hrd-sec{
+	padding-top: 56px;
+	padding-bottom: 174px;
+}

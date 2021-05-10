@@ -219,8 +219,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	-ms-transition: all 0.3s;
 }
 .categories-sec-int ul li a:hover{
-	background: #cb0b14;
-	border-color: #cb0b14;
+	background: #3c3c3b;
+	border-color: #3c3c3b;
 }
 
 @media(max-width: 1599px){
