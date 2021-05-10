@@ -179,7 +179,7 @@ body.single-product .main-img-crtlr{
     height: 100%;
 }
 .woocommerce div.product .product_title{
-	font-size: 34px;
+/*	font-size: 34px;*/
 	margin-bottom: 20px;
 	color: #727272;
 	text-transform: uppercase;
@@ -653,9 +653,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 /* =============== */
 
 @media (max-width: 1699px){
-	.woocommerce div.product .product_title{
+/*	.woocommerce div.product .product_title{
 		font-size: 29px;
-	}
+	}*/
 }
 
 @media (max-width: 1599px){
@@ -685,9 +685,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 		max-height:150px;
 	}
 	
-	.woocommerce div.product .product_title{
+/*	.woocommerce div.product .product_title{
 		font-size: 28px;
-	}
+	}*/
 	.main-img-crtlr .woocommerce-product-gallery__image{
 		height:530px;
 	}
@@ -712,9 +712,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 		margin-bottom: 45px;
 		font-size: 28px;
 	}
-	.woocommerce div.product .product_title{
+/*	.woocommerce div.product .product_title{
 		font-size: 27px;
-	}
+	}*/
 	.single-product .faq-detials-sec{
 		padding: 90px 0 75px;
 	}
@@ -752,9 +752,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	.related.products.related-pro-crtl{
 		padding: 80px 0;
 	}
-	.woocommerce div.product .product_title{
+	/*.woocommerce div.product .product_title{
 		font-size: 26px;
-	}
+	}*/
 	.single-product .faq-detials-sec{
 		padding: 80px 0 65px;
 	}
@@ -983,9 +983,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	    font-size: 43px;
 	    margin-bottom: 25px;
 	}
-	.custom-desc-crtl p {
+/*	.custom-desc-crtl p {
 	    font-size: 34px;
-	}
+	}*/
 
 }
 
@@ -1260,9 +1260,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	.custom-desc-crtl h2{
 	    font-size: 38px;
 	}
-	.custom-desc-crtl p{
+	/*.custom-desc-crtl p{
 	    font-size: 30px;
-	}
+	}*/
 	.meta-crtl ul li strong{
 		max-width:125px;
 	}
@@ -1363,9 +1363,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 		font-size:22px;
 		padding-left: 35px;
 	}
-	.custom-desc-crtl p{
+/*	.custom-desc-crtl p{
 		font-size:28px;
-	}
+	}*/
 }
 
 @media(max-width: 359px){
