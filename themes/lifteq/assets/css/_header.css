@@ -1,6 +1,7 @@
 body{
 	position: relative;
 }
+
 .fixed-contact{
 	position: fixed;
 	right: 0;
@@ -380,6 +381,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 		content: none;
 		display: none;
 	}*/
+
 	/*.xs-close-btn-icon{
 		position: relative;
 		width: 19px;
@@ -409,7 +411,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 		height: 25px;
 		width: 25px;
 		margin-left: 17px;
-		margin-top: -2px;
+		margin-top: -5px;
 	}
 	.xs-hambergar strong{
 		display: inline-block;
