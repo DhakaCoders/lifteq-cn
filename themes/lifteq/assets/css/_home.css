@@ -43,6 +43,9 @@ breadcrumb
 	padding-top: 8px;
 	padding-bottom: 22px;
 }
+.breadcrumb-cntlr{
+	padding-left: 9px;
+}
 .breadcrumb-cntlr ul {
 	display: flex;
 	align-items: center;

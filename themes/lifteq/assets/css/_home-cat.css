@@ -208,18 +208,8 @@
 		width: 100%!important;
 		padding: 0 0 24px!important;
 	}	
-	.fl-pro-grd-heading .fl-pro-grd-title,
-	.fl-product-grd-2 .fl-pro-grd-title{
-		font-size: 45px;
-	}
-	.fl-pro-grd-heading p{
-		font-size: 27px;
-	}
 }
 
 @media(max-width: 375px) {
-	.fl-pro-grd-heading .fl-pro-grd-title,
-	.fl-product-grd-2 .fl-pro-grd-title{
-		font-size: 36px;
-	}
+
 }
