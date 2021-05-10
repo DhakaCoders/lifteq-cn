@@ -338,15 +338,21 @@ form .dropdown-menu li a{
 
 /*slider break fix*/
 
-.hmProdctGrdsSlider .hmProdctGrdsSlideItme{
+.hmProdctGrdsSlider .hmProdctGrdsSlideItme,
+.main-img-crtlr .woocommerce-product-gallery__image,
+.thumbnails .thumb-bg{
 	display: none;
 }
 
-.hmProdctGrdsSlider .hmProdctGrdsSlideItme:first-child{
+.hmProdctGrdsSlider .hmProdctGrdsSlideItme:first-child,
+.main-img-crtlr .woocommerce-product-gallery__image:first-child,
+.thumbnails .thumb-bg:first-child{
 	display: none;
 }
 
-.hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme{
+.hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme,
+.main-img-crtlr.slick-initialized .woocommerce-product-gallery__image,
+.thumbnails.slick-initialized .thumb-bg{
 	display: block;
 }
 

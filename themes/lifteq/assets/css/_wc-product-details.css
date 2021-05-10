@@ -238,10 +238,11 @@ body.single-product .main-img-crtlr{
 .meta-crtl{
 	font-weight: 700;
 	color: #707C88;
-
+	margin-bottom:30px;
 }
 .meta-crtl ul{
 	margin: -11px 0;
+	padding-bottom:0;
 }
 .meta-crtl ul li{
 	padding: 4px 0;
@@ -270,6 +271,7 @@ body.single-product .main-img-crtlr{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size:23px;
 }
+
 .single-product .breadcrumb-sec{
 	margin-bottom: 100px;
 }
@@ -475,8 +477,9 @@ body.single-product div.product form.cart .button{
     text-transform: capitalize!important;
 }
 body.single-product div.product form.cart .button:hover{
-    background: #D9534F!important;
-    border-color: #D9534F!important;
+    background: #000000!important;
+    border-color: #000000!important;
+    color: #fff!important;
 }
 body.single-product div.product form.cart .button:before{
 	content: "";
@@ -534,7 +537,7 @@ span.onsale{
 	position: absolute;
     width: 100px!important;
     height: 30px!important;
-    background: #5CB85C!important;
+    background: #12a19a!important;
     color: #fff!important;
     display: flex;
     align-items: center;
@@ -779,6 +782,10 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	.default-page-con ul li::before, ul li::before{
 		width:18px;
 		height:15px;
+	}
+	body.single-product .fl-single-product span.onsale, 
+	body.single-product .fl-single-product span.seller-flash{
+		left:196px!important;
 	}
 }
 
@@ -1134,6 +1141,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	    min-width: 150px;
 	    margin-right:0px;
 	}*/
+	body.single-product .fl-single-product span.onsale, body.single-product .fl-single-product span.seller-flash {
+	    left: 170px!important;
+	}
 }
 
 
@@ -1260,6 +1270,10 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	}
 	.meta-crtl ul li strong{
 		max-width:125px;
+	}
+	body.single-product .fl-single-product span.onsale, 
+	body.single-product .fl-single-product span.seller-flash{
+	    left: 148px!important;
 	}
 }
 
