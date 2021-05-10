@@ -533,11 +533,38 @@ body.single-product div.product form.cart .button:before{
 }
 .single-product .single-price-total del span.woocommerce-Price-amount bdi,
 .single-product .single-price-total del span.woocommerce-Price-amount bdi span,
-.single-product .single-price-total ins span.woocommerce-Price-amount bdi,
-.single-product .single-price-total ins span.woocommerce-Price-amount bdi span{
-	font-size: 20px!important;
-	color: #707C88;
-	font-weight: 400;
+{}
+span.single-price-total ins span bdi{
+    font-size: 27px;
+    color: #3c3c3b;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    margin-right:13px;
+}
+.product-single-price{
+    display: flex;
+    margin-bottom:43px;
+}
+.product-single-price .price-title{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: #3d3d3c;
+    padding-left: 32px;
+    position: relative;
+}
+.product-single-price .price-title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 20px;
+    height: 15px;
+    background: url(../images/priceing-img.jpg);
+    border-radius: 100%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position:100% auto!important;
 }
 span.onsale{
 	position: absolute;
@@ -697,6 +724,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	.meta-crtl ul li > span{
 		font-size:20px;
 	}
+	span.single-price-total ins span bdi{
+		font-size:25px;
+	}
 }
 @media(max-width: 1399px){
 	.single-product .fl-single-product{
@@ -725,6 +755,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	}
 	.default-page-con ul li, ul li{
 		font-size:18px;
+	}
+	span.single-price-total ins span bdi{
+		font-size:23px;
 	}
 
 }
@@ -786,6 +819,12 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 }
 
 @media(max-width: 991px){
+	span.single-price-total ins span bdi {
+	    font-size: 35px;
+	}
+	.product-single-price .price-title{
+		font-size:23px;
+	}
 	.summary-ctrl .qty-price-wrap{
 		padding-bottom: 27px;
 	}
@@ -841,6 +880,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	}
 	.meta-crtl{
 		margin-bottom:25px;
+		padding-bottom: 1px;
 	}
 	.woocommerce div.product div.summary{
 	    margin-bottom: 13px;
@@ -985,6 +1025,12 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 }
 
 @media(max-width: 767px){
+	span.single-price-total ins span bdi{
+		font-size:30px;
+	}
+	.product-single-price .price-title{
+		font-size:21px;
+	}
 	.single-product .wc-product-title{
 		display: none!important;
 	}
@@ -1157,6 +1203,15 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 
 
 @media(max-width: 575px){
+	span.single-price-total ins span bdi{
+		font-size:26px;
+	}
+	.product-single-price .price-title{
+		font-size:18px;
+	}
+	.product-single-price{
+		margin-bottom:30px;
+	}
 	.long-desc h2{
 	    font-size: 20px;
 	}
