@@ -210,19 +210,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
    $('.main-img-crtlr').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     fade: true,
     autoplay:true,
     asNavFor: '.thumbnails-cntlr .thumbnails',
-     prevArrow: $('.fl-singgle-pro-prev'),
-    nextArrow: $('.fl-singgle-pro-next'),
   });
     $('.thumbnails-cntlr .thumbnails').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.main-img-crtl',
+      asNavFor: '.main-img-crtlr',
       dots: false,
-      arrows: true,
+      arrows: false,
       autoplay:true,
       focusOnSelect: true,
       vertical: true,
@@ -244,6 +242,43 @@ google.maps.event.addDomListener(window, 'load', initialize);
     });
 
   }
+  
+
+//products counter
+if( $('.qty').length ){
+  $('.qty').each(function() {
+    var spinner = $(this),
+      input = spinner.find('input[type="number"]'),
+      btnUp = spinner.find('.plus'),
+      btnDown = spinner.find('.minus'),
+      min = 1,
+      max = input.attr('max');
+
+    btnUp.click(function() {
+      var oldValue = parseFloat(input.val());
+      if (oldValue <= max) {
+        var newVal = oldValue;
+      } else {
+        var newVal = oldValue + 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
+
+    btnDown.click(function() {
+      var oldValue = parseFloat(input.val());
+      if (oldValue <= min) {
+        var newVal = oldValue;
+      } else {
+        var newVal = oldValue - 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
+
+  });
+
+}
   
 
     new WOW().init();

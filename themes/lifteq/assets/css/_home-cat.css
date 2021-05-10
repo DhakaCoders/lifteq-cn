@@ -20,6 +20,9 @@
 }
 .fl-product-grd{
 	border: 1px solid #ebebeb;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 .fl-products-cntlr ul.products{
 	display: flex;
@@ -37,10 +40,21 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	overflow: hidden;
 }
 .fl-pro-grd-img-cntlr img{
 	max-height: 220px!important;
 	width: auto!important;
+}
+.fl-product-grd:hover{
+	border-color:#3c3c3b;
+}
+.fl-product-grd-inr:hover .fl-pro-grd-img-cntlr img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 .fl-product-grd-inr{
 	padding: 8px 7px;
@@ -98,6 +112,9 @@
 	text-transform: capitalize;
 	letter-spacing: -0.02em;
 }
+.fl-pro-grd-title a:hover{
+	color: #12a19a;
+}
 .fl-pro-grd-heading p{
 	margin-bottom: 0;
 	color: #7b7b7b;
@@ -136,6 +153,9 @@
 	.fl-pro-grd-des > ul > li{
 		font-size: 15px;
 	}
+	.home .entry-hrd-sec{
+		padding-bottom: 164px;
+	}
 }
 
 @media(max-width: 1199px) {
@@ -158,11 +178,14 @@
 	}
 	.fl-products-cntlr ul.products > li{
 		width: 33.3333%!important;
-		padding: 0 6px 11px!important;
+		padding: 0 6px 14px!important;
 	}
 	.fl-pro-grd-heading .fl-pro-grd-title,
 	.fl-product-grd-2 .fl-pro-grd-title{
 		font-size: 25px;
+	}
+	.home .entry-hrd-sec{
+		padding-bottom: 154px;
 	}
 }
 
@@ -171,11 +194,17 @@
 		margin: 0 -5px!important;
 	}
 	.fl-products-cntlr ul.products > li{
-		padding: 0 5px 10px!important;
+		padding: 0 5px 14px!important;
 	}
 	.fl-pro-grd-heading .fl-pro-grd-title,
 	.fl-product-grd-2 .fl-pro-grd-title{
 		font-size: 23px;
+	}
+	.home .entry-hrd-sec{
+		padding-bottom: 144px;
+	}
+	.home .entry-hrd-title{
+		margin-bottom: 24px;
 	}	
 }
 
@@ -186,7 +215,12 @@
 }
 
 @media(max-width: 575px) {
-
+	.home .entry-hrd-sec{
+		padding-bottom: 142px;
+	}
+	.home .entry-hrd-title{
+		margin-bottom: 28px;
+	}
 }
 
 @media(max-width: 479px) {
@@ -196,19 +230,16 @@
 	.fl-products-cntlr ul.products > li{
 		width: 100%!important;
 		padding: 0 0 24px!important;
+	}
+	.home .entry-hrd-sec{
+		padding-top: 43px;
+		padding-bottom: 142px;
+	}
+	.home .entry-hrd-title{
+		margin-bottom: 32px;
 	}	
-	.fl-pro-grd-heading .fl-pro-grd-title,
-	.fl-product-grd-2 .fl-pro-grd-title{
-		font-size: 45px;
-	}
-	.fl-pro-grd-heading p{
-		font-size: 27px;
-	}
 }
 
 @media(max-width: 375px) {
-	.fl-pro-grd-heading .fl-pro-grd-title,
-	.fl-product-grd-2 .fl-pro-grd-title{
-		font-size: 36px;
-	}
+
 }
