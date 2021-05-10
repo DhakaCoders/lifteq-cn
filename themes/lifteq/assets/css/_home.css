@@ -30,6 +30,9 @@
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 }
+.home .fl-pro-grd-heading .fl-pro-grd-title a{
+	text-transform: initial;
+}
 .fl-product-grd-2 .fl-pro-grd-title{
 	margin-bottom: 10px;
 }
