@@ -20,6 +20,9 @@
 }
 .fl-product-grd{
 	border: 1px solid #ebebeb;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 .fl-products-cntlr ul.products{
 	display: flex;
@@ -43,6 +46,9 @@
 .fl-pro-grd-img-cntlr img{
 	max-height: 220px!important;
 	width: auto!important;
+}
+.fl-product-grd:hover{
+	border-color:#3c3c3b;
 }
 .fl-product-grd-inr:hover .fl-pro-grd-img-cntlr img{
 	transform: scale(1.1);

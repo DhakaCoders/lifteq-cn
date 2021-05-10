@@ -106,15 +106,10 @@ breadcrumb
 }
 
 @media(max-width: 575px) {
-	.home .xs-menu-wrap{
-		margin-bottom: 12px;
-	}
+
 }
 
 @media(max-width: 479px) {
-	.home .xs-menu-wrap{
-		margin-bottom: 8px;
-	}
 	.breadcrumb-sec{
 		padding-bottom: 18px;
 	}
