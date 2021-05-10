@@ -133,7 +133,7 @@
 .ftc-dtls-mail .ftc-dtls-col-title:after{
 	background-image: url('../images/ftr-mail-icon.png');
 	width: 12px;
-	height: 10px;
+	height: 8px;
 }
 .ftc-dtls-mail .ftc-dtls-col-title{
 	padding-left: 18px;
@@ -316,6 +316,7 @@
 		float: initial;
 		max-width: 100%;
 		padding-top: 0;
+		padding-right: 0;
 		margin-bottom: 70px;
 	}
 	.ftr-top-col:last-child,
@@ -327,6 +328,8 @@
 	}
 	.ftr-top-col ul li{
 		display: block;
+		width: 100%;
+		padding: 7px 0;
 	}
 	.ftr-top-col-details{
 		display: block;
@@ -335,6 +338,19 @@
 		width: 100%;
 		margin-bottom: 25px;
 	}
+	.ftr-top-col-title.fl-h6{
+		font-size: 37px;
+		margin-bottom: 40px;
+	}
+	.ftr-top-col ul li a{
+		font-size: 31px;
+	}
+	.ftc-dtls-col-title{
+		font-size: 25px;
+	}
+	.ftc-dtls-col a{
+		font-size: 32px;
+	}
 }
 @media(max-width: 575px){
 	.ftr-top{
@@ -342,6 +358,12 @@
 	}
 	.ftr-top{
 		padding-left: 15px;
+	}
+	.ftc-dtls-col-title{
+		font-size: 23px;
+	}
+	.ftc-dtls-col a{
+		font-size: 27px;
 	}
 }
 @media(max-width: 479px){
