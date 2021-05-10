@@ -40,3 +40,18 @@
 .sitemap ol li a:focus{
 	text-decoration: underline;
 }
+
+
+
+/* 
+404
+ */
+.page-404 {
+    min-height: 400px;
+}
+.page-404 h1{
+	font-size: 73px;
+}
+.page-404 h3{
+	font-size: 28px;
+}
