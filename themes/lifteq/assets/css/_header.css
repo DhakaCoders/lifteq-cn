@@ -1,6 +1,7 @@
 body{
 	position: relative;
 }
+
 .fixed-contact{
 	position: fixed;
 	right: 0;
@@ -380,7 +381,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 		content: none;
 		display: none;
 	}*/
-	
+
 	/*.xs-close-btn-icon{
 		position: relative;
 		width: 19px;
