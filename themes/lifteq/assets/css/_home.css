@@ -84,3 +84,38 @@ breadcrumb
 	padding-top: 56px;
 	padding-bottom: 174px;
 }
+
+@media(max-width: 1399px) {
+
+}
+
+@media(max-width: 1199px) {
+
+}
+
+@media(max-width: 991px) {
+
+}
+
+@media(max-width: 767px) {
+
+}
+
+@media(max-width: 639px) {
+
+}
+
+@media(max-width: 575px) {
+	.home .xs-menu-wrap{
+		margin-bottom: 12px;
+	}
+}
+
+@media(max-width: 479px) {
+	.home .xs-menu-wrap{
+		margin-bottom: 8px;
+	}
+	.breadcrumb-sec{
+		padding-bottom: 18px;
+	}
+}
