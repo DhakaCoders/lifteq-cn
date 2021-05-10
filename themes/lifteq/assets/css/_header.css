@@ -82,6 +82,7 @@ nav.main-nav > ul > li:after{
 	height: 9px;
 	background: #9c9c9c;
 	margin-top: -2px;
+	margin-left: -1px;
 }
 nav.main-nav > ul > li:first-child:after{
 	content: none;
@@ -240,6 +241,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 	nav.main-nav > ul > li > a{
 		font-size: 16px;
+	}
+	.logo span{
+		font-size: 20px;
 	}
 }
 @media(max-width: 1199px){
