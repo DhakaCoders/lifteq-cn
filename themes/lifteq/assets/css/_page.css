@@ -48,6 +48,7 @@
  */
 .page-404 {
     min-height: 400px;
+    padding-top: 50px;
 }
 .page-404 h1{
 	font-size: 73px;
