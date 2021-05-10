@@ -68,7 +68,13 @@
 	color: #fff;
 	line-height: 1;
 }
-
+.ftr-top-col ul li a:hover,
+.ftc-dtls-col a:hover{
+	opacity: 0.8;
+}
+.ftr-btm-menu ul li a:hover{
+	color: #12a19a;
+}
 .ftr-top-col-logo{
 	margin-bottom: 22px;
 }
@@ -351,6 +357,43 @@
 	.ftc-dtls-col a{
 		font-size: 32px;
 	}
+	.ftr-btm-copyright p{
+		font-size: 24px;
+	}
+	.ftc-dtls-addr{
+		order: 1;
+	}
+	.ftc-dtls-addr{
+		order: 3;
+	}
+	.ftc-dtls-mail{
+		order: 2;
+	}
+	.ftc-dtls-col-title,
+	.ftc-dtls-mail .ftc-dtls-col-title{
+		padding-left: 35px;
+	}
+	.ftc-dtls-col-title:after{
+		width: 16px;
+		height: 21px;
+		background-image: url(../images/ftr-tel-icon-xs.png);
+	}
+	.ftc-dtls-addr .ftc-dtls-col-title:after {
+		background-image: url(../images/ftr-place-icon-xs.png);
+		width: 23px;
+		height: 23px;
+	}
+	.ftc-dtls-mail .ftc-dtls-col-title:after {
+		background-image: url(../images/ftr-email-xs.png);
+		width: 24px;
+		height: 16px;
+	}
+	.ftr-top-col-logo a{
+		max-width: 240px;
+	}
+	.ftr-top-col-logo{
+		margin-bottom: 34px;
+	}
 }
 @media(max-width: 575px){
 	.ftr-top{
@@ -360,10 +403,17 @@
 		padding-left: 15px;
 	}
 	.ftc-dtls-col-title{
-		font-size: 23px;
+		font-size: 20px;
 	}
 	.ftc-dtls-col a{
-		font-size: 27px;
+		font-size: 25px;
+	}
+	.ftr-top-col-title.fl-h6{
+		font-size: 32px;
+		margin-bottom: 34px;
+	}
+	.ftr-top-col ul li a{
+		font-size: 26px;
 	}
 }
 @media(max-width: 479px){
