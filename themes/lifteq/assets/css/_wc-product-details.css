@@ -49,6 +49,7 @@
 }
 .thumbnails-cntlr .thumb-bg{
 	padding: 5px 0px;
+	cursor: pointer;
 }
 .thumbnails-cntlr .thumb-bg > div{
 	height: 197px;
@@ -272,9 +273,6 @@ body.single-product .main-img-crtlr{
 	font-size:23px;
 }
 
-.single-product .breadcrumb-sec{
-	margin-bottom: 100px;
-}
 .single-product .fl-single-product{
 	padding-bottom: 103px;
 }
@@ -376,6 +374,12 @@ body.woocommerce-cart .product-quantity .quantity.qty1 span{
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
 
+}
+.cart-btn-qty .quantity.qty span:hover, 
+body.woocommerce-cart .product-quantity .quantity.qty span:hover, 
+body.woocommerce-cart .product-quantity .quantity.qty1 span:hover{
+    background: #12a19a;
+    color: #fff;
 }
 .summary-ctrl .fl-summary-long-desc ul{
     padding-left: 6px;
@@ -680,9 +684,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	.thumbnails-cntlr .thumb-bg img{
 		max-height:150px;
 	}
-	.single-product .breadcrumb-sec{
-		margin-bottom: 85px;
-	}
+	
 	.woocommerce div.product .product_title{
 		font-size: 28px;
 	}
@@ -743,9 +745,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
     .term-geschenken .fl-single-product-grd-2 .fl-single-product-grd-inr{
         padding-top:0px;
     }
-    .single-product .breadcrumb-sec{
-		margin-bottom: 75px;
-	}
+  
 	.single-product .fl-single-product{
 		padding-bottom: 80px;
 	}
@@ -940,9 +940,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
     body.term-geschenken .xs-filter-btn{
         display: none!important;
     }
-    .single-product .breadcrumb-sec{
-		margin-bottom: 65px;
-	}
+   
 	.single-product .fl-single-product{
 		padding-bottom: 70px;
 	}
@@ -1084,9 +1082,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
     .fltr-prdt-title{
     	margin-left: 20px;
     }
-    .single-product .breadcrumb-sec{
-		margin-bottom: 55px;
-	}
+    
 	.single-product .fl-single-product{
 		padding-bottom: 60px;
 	}
@@ -1216,9 +1212,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
     body.single-product div.product form.cart .button:before{
         display: none;
     }
-    .single-product .breadcrumb-sec{
-		margin-bottom: 45px;
-	}
+ 
 	.single-product .fl-single-product{
 		padding-bottom: 56px;
 	}

@@ -210,19 +210,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
    $('.main-img-crtlr').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     fade: true,
     autoplay:true,
     asNavFor: '.thumbnails-cntlr .thumbnails',
-     prevArrow: $('.fl-singgle-pro-prev'),
-    nextArrow: $('.fl-singgle-pro-next'),
   });
     $('.thumbnails-cntlr .thumbnails').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.main-img-crtl',
+      asNavFor: '.main-img-crtlr',
       dots: false,
-      arrows: true,
+      arrows: false,
       autoplay:true,
       focusOnSelect: true,
       vertical: true,
