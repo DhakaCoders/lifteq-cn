@@ -1821,7 +1821,7 @@ body.woocommerce-checkout section.checkout-top-sec{
     .shipping-methods .woocommerce-shipping-methods li input[type=hidden] + label:before{
         margin-top:1px;
     }
-    .woocommerce .checkout-button.button, 
+ /*   .woocommerce .checkout-button.button, 
     .woocommerce #respond input#submit,
     .woocommerce a.button, 
     .woocommerce button.button,
@@ -1836,7 +1836,7 @@ body.woocommerce-checkout section.checkout-top-sec{
     .woocommerce-orders .orders-crtl .contact-info a.order-contact-btn, 
     body.woocommerce-checkout .custom-checkout-order-review .ywgc_enter_code .form-row-last button[type=submit]{
         font-size:14px!important;
-    }
+    }*/
     body.woocommerce-edit-account .woocommerce-account-grds-cntlr .woocommerce-MyAccount-content,
     body.woocommerce-orders .woocommerce-account-grds-cntlr .woocommerce-MyAccount-content{
         float:none!important;
