@@ -48,10 +48,17 @@
  */
 .page-404 {
     min-height: 400px;
+    padding-top: 50px;
 }
 .page-404 h1{
 	font-size: 73px;
 }
 .page-404 h3{
 	font-size: 28px;
+}
+
+
+/**/
+.page-content{
+	padding-bottom: 100px;
 }
