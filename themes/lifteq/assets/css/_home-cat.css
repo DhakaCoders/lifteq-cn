@@ -37,10 +37,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	overflow: hidden;
 }
 .fl-pro-grd-img-cntlr img{
 	max-height: 220px!important;
 	width: auto!important;
+}
+.fl-product-grd-inr:hover .fl-pro-grd-img-cntlr img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 .fl-product-grd-inr{
 	padding: 8px 7px;
@@ -97,6 +105,9 @@
 	color: #6f6f6f;
 	text-transform: capitalize;
 	letter-spacing: -0.02em;
+}
+.fl-pro-grd-title a:hover{
+	color: #12a19a;
 }
 .fl-pro-grd-heading p{
 	margin-bottom: 0;
