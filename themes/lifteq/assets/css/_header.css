@@ -575,6 +575,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 		max-height: 30px;
 		width: auto;
 	}
+	
 }
 @media(max-width: 359px){
 	.hdr-lft{
