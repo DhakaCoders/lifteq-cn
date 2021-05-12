@@ -1,7 +1,7 @@
 .entry-hrd{
 	color: #727272;
 }
-.entry-hrd-title{
+.entry-hrd h2{
 	line-height: 1.1;
 }
 .entry-hrd p{
@@ -241,9 +241,6 @@
 	.home .entry-hrd-sec{
 		padding-top: 43px;
 		padding-bottom: 142px;
-	}
-	.home .entry-hrd-title{
-		margin-bottom: 32px;
 	}	
 }
 
