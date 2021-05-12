@@ -110,4 +110,7 @@ breadcrumb
 	.breadcrumb-sec{
 		padding-bottom: 18px;
 	}
+	.entry-hrd h2{
+		margin-bottom: 32px;
+	}
 }
