@@ -290,6 +290,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 	.xs-contact{
 		margin-left: auto;
+		margin-top: -31px;
 	}
 	.xs-contact ul{
 		display: flex;
@@ -563,6 +564,17 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	.logo a{
 		max-width: 186px;
 	}
+	/* .xs-contact{
+		margin-top: -44px;
+	} */
+	.xs-contact ul li a{
+		height: 38px;
+    	width: 48px;
+	}
+	.xs-contact ul li a img{
+		max-height: 30px;
+		width: auto;
+	}
 }
 @media(max-width: 359px){
 	.hdr-lft{
@@ -586,5 +598,16 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 	.xs-contact.show-md{
 		display: inline-block!important;
+	}
+	.xs-contact ul li a{
+		height: 35px;
+    	width: 45px;
+	}
+	.xs-contact ul li a img{
+		max-height: 24px;
+		width: auto;
+	}
+	.xs-contact{
+		margin-top: -32px;
 	}
 }
