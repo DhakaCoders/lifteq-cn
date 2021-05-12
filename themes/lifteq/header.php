@@ -16,6 +16,23 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+<?php 
+  $logoObj = get_field('hdlogo', 'options');
+  if( is_array($logoObj) ){
+    $logo_tag = '<img src="'.$logoObj['url'].'" alt="'.$logoObj['alt'].'" title="'.$logoObj['title'].'">';
+  }else{
+    $logo_tag = '';
+  }
+  $hdlogotext = get_field('hdlogotext', 'options');
+  
+  $address = get_field('address', 'options');
+  $map_url = get_field('map_url', 'options');
+  $gmaplink = !empty($map_url)?$map_url: 'javascript:void()';
+  $telephone = get_field('telephone', 'options');
+  $email = get_field('email', 'options');
+?>  
+
 <div class="bdoverlay"></div>
 <!-- fixed -->
 
@@ -38,10 +55,14 @@
         <div class="col-md-12">
           <div class="header-inr clearfix">
             <div class="hdr-lft">
+              <?php if( !empty($logo_tag) ): ?>
               <div class="logo">
-                <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/logo.png"></a>
-                <span>Your partner in heavy lifting!</span>
+               <a href="<?php echo esc_url(home_url('/')); ?>">
+                <?php echo $logo_tag; ?>
+               </a>
+               <?php if( !empty( $hdlogotext ) ) printf('<span>%s</span>', $hdlogotext); ?>
               </div>
+              <?php endif; ?>
               <div class="xs-contact show-md">
                 <ul class="reset-list">
                   <li>
