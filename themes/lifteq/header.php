@@ -65,10 +65,10 @@
               <?php endif; ?>
               <div class="xs-contact show-md">
                 <ul class="reset-list">
-                  <li>
+                  <li class="tel">
                     <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/xs-tel.png"></a>
                   </li>
-                  <li>
+                  <li class="mail">
                     <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/xs-mail.png"></a>
                   </li>
                 </ul>
