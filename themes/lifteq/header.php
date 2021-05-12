@@ -1,41 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
-	<title>Home</title>
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo('charset'); ?>">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-  <!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
+  <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
   <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
-  <?php } ?> -->
+  <?php } ?>
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
-  
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
-  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->	
-
+<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <div class="bdoverlay"></div>
 <!-- fixed -->
 
@@ -193,16 +173,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="breadcrumb-cntlr">
-          <ul class="reset-list clearfix">
-            <li>
-              <a href="#" class="fl-home-icon">
-                <span class="item">Home</span>
-              </a>
-            </li>
-            <li class="active">
-              <span>contact</span>
-            </li>
-          </ul>
+            <?php cbv_breadcrumbs(); ?>
         </div>
       </div>
     </div>
