@@ -564,9 +564,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	.logo a{
 		max-width: 186px;
 	}
-	/* .xs-contact{
-		margin-top: -44px;
-	} */
+	.xs-contact{
+		margin-top: -37px;
+	}
 	.xs-contact ul li a{
 		height: 38px;
     	width: 48px;
