@@ -56,7 +56,8 @@
 .ftr-top-col ul li:first-child{
 	padding-top: 0;
 }
-.ftr-top-col-01 ul li:last-child{
+.ftr-top-col-01 ul li:last-child,
+.ftr-top-col-02 ul li:last-child{
 	width: 100%;
 	display: block;
 }
