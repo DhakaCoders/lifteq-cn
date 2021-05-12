@@ -1,16 +1,16 @@
-.entry-hrd{
+.page-content-cntrl{
 	color: #727272;
 }
-.entry-hrd h2{
+.page-content-cntrl h2{
 	line-height: 1.1;
 }
-.entry-hrd p{
+.page-content-cntrl p{
 	line-height: 1.2;
 }
-.entry-hrd p:last-of-type{
+.page-content-cntrl p:last-of-type{
 	margin-bottom: 0;
 }
-.entry-hrd-sec{
+.page-content-sec{
 	padding-bottom: 34px;
 }
 
@@ -119,7 +119,7 @@
 	color: #7b7b7b;
 	font-size: 18px;
 }
-.module-text{
+.pb{
 	padding-bottom: 198px;
 }
 
@@ -128,7 +128,9 @@
 /* =============== */
 
 @media(max-width: 1699px) {
-
+	.pb{
+		padding-bottom: 188px;
+	}
 }
 
 @media(max-width: 1599px) {
@@ -152,11 +154,14 @@
 	.fl-pro-grd-des > ul > li{
 		font-size: 16px;
 	}
-	.home .entry-hrd-sec{
+	.home .page-content-sec{
 		padding-bottom: 164px;
 	}
 	.fl-pro-grd-des > ul > li:after{
 		top: 10px;
+	}
+	.pb{
+		padding-bottom: 178px;
 	}
 }
 
@@ -167,6 +172,9 @@
 	}
 	.fl-product-grd-2 .fl-product-grd{
 		padding: 8px 5px
+	}
+	.pb{
+		padding-bottom: 168px;
 	}
 }
 
@@ -182,8 +190,11 @@
 	.fl-product-grd-2 .fl-pro-grd-title{
 		font-size: 25px;
 	}
-	.home .entry-hrd-sec{
+	.home .page-content-sec{
 		padding-bottom: 154px;
+	}
+	.pb{
+		padding-bottom: 158px;
 	}
 }
 
@@ -198,10 +209,10 @@
 	.fl-product-grd-2 .fl-pro-grd-title{
 		font-size: 23px;
 	}
-	.home .entry-hrd-sec{
+	.home .page-content-sec{
 		padding-bottom: 144px;
 	}
-	.home .entry-hrd-title{
+	.home .page-content-cntrl h2{
 		margin-bottom: 24px;
 	}
 	.fl-pro-grd-heading{
@@ -212,6 +223,9 @@
 	}
 	.fl-product-grd-2 .fl-product-grd-inr{
 		padding: 13px;
+	}
+	.pb{
+		padding-bottom: 148px;
 	}	
 }
 
@@ -219,14 +233,20 @@
 	.fl-products-cntlr ul.products > li{
 		width: 50%!important;
 	}
+	.pb{
+		padding-bottom: 138px;
+	}
 }
 
 @media(max-width: 575px) {
-	.home .entry-hrd-sec{
+	.home .page-content-sec{
 		padding-bottom: 142px;
 	}
-	.home .entry-hrd-title{
+	.home .page-content-cntrl h2{
 		margin-bottom: 28px;
+	}
+	.pb{
+		padding-bottom: 128px;
 	}
 }
 
@@ -238,9 +258,12 @@
 		width: 100%!important;
 		padding: 0 0 24px!important;
 	}
-	.home .entry-hrd-sec{
+	.home .page-content-sec{
 		padding-top: 43px;
 		padding-bottom: 142px;
+	}
+	.pb{
+		padding-bottom: 100px;
 	}	
 }
 

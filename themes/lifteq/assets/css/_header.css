@@ -571,11 +571,17 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 		height: 38px;
     	width: 48px;
 	}
-	.xs-contact ul li a img{
-		max-height: 30px;
+	.xs-contact ul li.tel a img, .xs-contact ul li.mail a img{
 		width: auto;
 	}
-	
+	.xs-contact ul li.tel a img{
+		max-height: 25px;
+		
+	}
+	.xs-contact ul li.mail a img{
+		max-height: 21px;
+	}
+
 }
 @media(max-width: 359px){
 	.hdr-lft{
@@ -604,9 +610,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 		height: 35px;
     	width: 45px;
 	}
-	.xs-contact ul li a img{
-		max-height: 24px;
-		width: auto;
+	.xs-contact ul li.tel a img{
+		max-height: 22px;
+	}
+	.xs-contact ul li.mail a img{
+		max-height: 20px;
 	}
 	.xs-contact{
 		margin-top: -32px;
