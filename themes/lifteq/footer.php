@@ -21,23 +21,23 @@
         <div class="ftr-top clearfix">
           <div class="ftr-top-col ftr-top-col-01">
             <h6 class="ftr-top-col-title fl-h6"><?php _e( 'Producten', THEME_NAME ); ?></h6>
-            <ul class="reset-list clearfix">
-              <li><a href="#">Montageliften</a></li>
-              <li><a href="#">Kanaalliften</a></li>
-              <li><a href="#">Glasliften</a></li>
-              <li><a href="#">Handgereedschap</a></li>
-              <li><a href="#">Onderdelen</a></li>
-              <li><a href="#">Accessoires</a></li>
-            </ul>
+            <?php 
+              wp_nav_menu( array(
+              'menu_class'     => 'clearfix reset-list',
+              'theme_location' => 'cbv_fta_menu',
+              'container' => false,
+              ) );
+            ?>
           </div>
           <div class="ftr-top-col ftr-top-col-02">
             <h6 class="ftr-top-col-title fl-h6"><?php _e( 'Lifteq', THEME_NAME ); ?></h6>
-            <ul class="reset-list clearfix">
-              <li><a href="#">Over Lifteq</a></li>
-              <li><a href="#">Downloads & Media</a></li>
-              <li><a href="#">Contactgegevens</a></li>
-              <li><a href="#">Sitemap</a></li>
-            </ul>
+            <?php 
+              wp_nav_menu( array(
+              'menu_class'     => 'clearfix reset-list',
+              'theme_location' => 'cbv_ftb_menu',
+              'container' => false,
+              ) );
+            ?>
           </div>
           <div class="ftr-top-col ftr-top-col-03">
             <?php if( !empty( $logo_tag ) ) :?>
@@ -78,13 +78,13 @@
             <img src="<?php echo THEME_URI; ?>/assets/images/ftr-btm-bank-logo.png" alt="">
           </div>
           <div class="ftr-btm-menu">
-            <ul class="reset-list clearfix">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sitemap</a></li>
-              <li><a href="#">Veel gestelde vragen</a></li>
-              <li><a href="#">Over ons</a></li>
-              <li><a href="#">Contact</a></li>      
-            </ul>
+            <?php 
+              wp_nav_menu( array(
+              'menu_class'     => 'clearfix reset-list',
+              'theme_location' => 'cbv_copyright_menu',
+              'container' => false,
+              ) );
+            ?>
           </div>
         </div>
 
