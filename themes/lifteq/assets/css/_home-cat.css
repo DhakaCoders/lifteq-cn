@@ -137,11 +137,11 @@
 	.fl-product-grd-2 .fl-pro-grd-title{
 		font-size: 33px;
 	}
-	.fl-product-grd-2 .fl-product-grd-inr{
-		padding: 5px;
-	}
 	.fl-pro-grd-des > ul > li{
 		font-size: 17px;
+	}
+	.fl-pro-grd-des > ul > li:after{
+		top: 11px;
 	}
 }
 
@@ -151,10 +151,13 @@
 		font-size: 31px;
 	}
 	.fl-pro-grd-des > ul > li{
-		font-size: 15px;
+		font-size: 16px;
 	}
 	.home .entry-hrd-sec{
 		padding-bottom: 164px;
+	}
+	.fl-pro-grd-des > ul > li:after{
+		top: 10px;
 	}
 }
 
@@ -165,10 +168,6 @@
 	}
 	.fl-product-grd-2 .fl-product-grd{
 		padding: 8px 5px
-	}
-	.fl-pro-grd-des > ul > li{
-		padding-left: 5px;
-		font-size: 14px;
 	}
 }
 

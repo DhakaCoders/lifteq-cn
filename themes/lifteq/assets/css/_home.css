@@ -25,10 +25,7 @@
 	width: 4px;
 	height: 2px;
 	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
+	top: 12px;
 }
 .home .fl-pro-grd-heading .fl-pro-grd-title a{
 	text-transform: initial;
