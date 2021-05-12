@@ -52,6 +52,7 @@ breadcrumb
 	padding: 0 7px;
 	position: relative;
 	line-height: 11px;
+	font-size: 14px;
 }
 .breadcrumb-cntlr ul li:not(:last-child):after{
 	position: absolute;
@@ -62,7 +63,7 @@ breadcrumb
 	background-repeat: no-repeat;
 	right: 0;    
     top: 50%;
-    margin-top: 2px;
+    margin-top: 0;
     transform: translate(50%, -50%);
     -webkit-transform: translate(50%, -50%);
     -ms-transform: translate(50%, -50%);
