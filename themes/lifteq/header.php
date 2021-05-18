@@ -80,7 +80,15 @@
             </div>
             <div class="hdr-rgt">
               <div class="hdr-rgt-inr">
-                <div class="cart-nember">2</div>
+                <div class="cart-nember">
+                  <?php 
+                    if( WC()->cart->get_cart_contents_count() > 0 ){
+                      echo sprintf ( '<span>%d</span>', WC()->cart->get_cart_contents_count() );
+                    }else{
+                      echo sprintf ( '<span>%d</span>', 0 );
+                    }  
+                  ?>
+                </div>
                 <nav class="main-nav">
                   <?php 
                       $mmenuOptions = array( 
