@@ -180,12 +180,13 @@
     <div class="row">
       <div class="col-md-12">
         <div class="categories-sec-int">
-          <ul class="reset-list">
-            <li><a href="#">Montageliften</a></li>
-            <li><a href="#">Kanaalliften </a></li>
-            <li><a href="#">Glasliften</a></li>
-            <li><a href="#">handtools</a></li>
-          </ul>
+          <?php 
+            wp_nav_menu( array(
+            'menu_class'     => 'clearfix reset-list',
+            'theme_location' => 'cbv_cat_menu',
+            'container' => false,
+            ) );
+          ?>
         </div>
       </div>
     </div>
