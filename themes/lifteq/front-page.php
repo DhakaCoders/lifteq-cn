@@ -117,8 +117,7 @@ get_header();
     <div class="row">
       <div class="col-md-12">
         <div class="page-content-cntrl">
-        <?php the_content(); ?>
-          
+          <?php the_content(); ?>
         </div>
       </div>
     </div>
