@@ -57,10 +57,12 @@
 }
 .fl-product-grd-inr{
 	padding: 8px 7px;
+	height: 100%;
 }
 .fl-pro-grd-price{
 	padding-bottom: 4px;
 	padding-left: 14px;
+	padding-right: 14px;
 }
 .fl-pro-grd-price,
 .fl-pro-grd-price del span.woocommerce-Price-amount bdi span,
