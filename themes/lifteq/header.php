@@ -80,6 +80,7 @@
             </div>
             <div class="hdr-rgt">
               <div class="hdr-rgt-inr">
+                <div class="cart-nember">2</div>
                 <nav class="main-nav">
                   <?php 
                       $mmenuOptions = array( 

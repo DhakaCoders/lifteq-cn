@@ -8,6 +8,11 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 	
+
+$('.main-nav > ul > li.cart > a').append('<span></span>');
+var cartNumber = $('.cart-nember').text();
+$('.main-nav > ul > li.cart > a > span').text(cartNumber);
+
   
 //matchHeightCol
 if($('.mHc').length){
@@ -198,14 +203,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 })();
 
 
-  /*start of Sabbir*/
-
-
-  /*start of Noyon*/
-
-
-
-  /*start of Niaz*/
   if( $('.main-img-crtlr').length ){
    $('.main-img-crtlr').slick({
     slidesToShow: 1,
@@ -226,8 +223,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
       vertical: true,
     });
   }
-
-  /*start of Shariful*/
 
   if (windowWidth <= 991) {
     $('.xs-hambergar').on('click', function(e){

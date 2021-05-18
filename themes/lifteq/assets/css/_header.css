@@ -1,7 +1,12 @@
 body{
 	position: relative;
 }
-
+.cart-nember{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
 .fixed-contact{
 	position: fixed;
 	right: 0;
