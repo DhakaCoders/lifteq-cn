@@ -1,8 +1,6 @@
 <?php 
 get_header();
 ?>
-
-
 <section class="page-content">
   <div class="container">
       <div class="row">
