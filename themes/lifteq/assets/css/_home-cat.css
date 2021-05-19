@@ -57,10 +57,12 @@
 }
 .fl-product-grd-inr{
 	padding: 8px 7px;
+	height: 100%;
 }
 .fl-pro-grd-price{
 	padding-bottom: 4px;
 	padding-left: 14px;
+	padding-right: 14px;
 }
 .fl-pro-grd-price,
 .fl-pro-grd-price del span.woocommerce-Price-amount bdi span,
@@ -106,7 +108,8 @@
 	margin-bottom: 4px;
 	line-height: 1.1;
 }
-.fl-pro-grd-title a{
+.fl-pro-grd-title a,
+.fl-pro-grd-title{
 	color: #6f6f6f;
 	text-transform: capitalize;
 	letter-spacing: -0.02em;

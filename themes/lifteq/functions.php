@@ -38,6 +38,7 @@ if( !function_exists('cbv_theme_setup') ){
             'cbv_fta_menu' => __( 'Footer Menu 1', THEME_NAME ),
             'cbv_ftb_menu' => __( 'Footer Menu 2', THEME_NAME ),
             'cbv_copyright_menu' => __( 'Copyright Menu', THEME_NAME ),
+            'cbv_cat_menu' => __( 'Categories Menu', THEME_NAME ),
         ) );
 
     }

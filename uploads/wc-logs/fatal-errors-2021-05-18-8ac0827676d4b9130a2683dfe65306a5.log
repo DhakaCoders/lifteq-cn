@@ -1,0 +1,4 @@
+2021-05-18T06:44:55+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 32768 bytes) in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\functions.php on line 1
+
+2021-05-18T07:00:51+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 32768 bytes) in D:\xampp\htdocs\projects\2021\lifteq\wp-admin\includes\plugin.php on line 1043
+
