@@ -1,0 +1,74 @@
+2021-05-19T08:07:46+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 50
+
+2021-05-19T08:10:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_featured_image() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:44
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 44
+
+2021-05-19T08:11:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_featured_image() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:13:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_id() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:14:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_id() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:14:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_id() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:14:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_id() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:15:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_featured_image() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:15:46+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_featured_image() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:43
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 43
+
+2021-05-19T08:16:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_featured_image() in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php:44
+Stack trace:
+#0 D:\xampp\htdocs\projects\2021\lifteq\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\projects\2021\lifteq\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\projects\2021\lifteq\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 44
+
