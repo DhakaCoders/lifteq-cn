@@ -108,7 +108,8 @@
 	margin-bottom: 4px;
 	line-height: 1.1;
 }
-.fl-pro-grd-title a{
+.fl-pro-grd-title a,
+.fl-pro-grd-title{
 	color: #6f6f6f;
 	text-transform: capitalize;
 	letter-spacing: -0.02em;

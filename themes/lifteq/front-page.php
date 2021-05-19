@@ -6,22 +6,17 @@ get_header();
 
 <?php
   $showhide_cats = get_field('showhide_cats', HOMEID);
-  $cats = get_field('categories', HOMEID);
+  $termObj = get_field('categories', HOMEID);
   if( $showhide_cats ):
-    if($cats):
+    if($termObj):
 ?>
 
 <section class="product-category">
   <div class="container">
     <div class="row">
       <?php 
-          $termIDS = $cats['categories'];
-          if( isset($termIDS) && ! empty( $termIDS ) && ! is_wp_error( $termIDS ) ){
-            $terms = get_terms( array(
-            'taxonomy' => 'product_cat',
-            'hide_empty' => false,
-            'include' => $termIDS
-            ) );
+          if( isset($termObj) && ! empty( $termObj ) && ! is_wp_error( $termObj ) ){
+            $terms = $termObj;
           }else{
             $terms = get_terms( array(
             'taxonomy' => 'product_cat',
@@ -37,22 +32,45 @@ get_header();
         <div class="fl-products-cntlr">
           <ul class="reset-list clearfix products">
             <?php 
-                $catimg_src = '';
-                foreach ( $terms as $term ) { 
-                $img_id = get_field('image', $term, false); 
-                if( !empty($img_id) ) $catimg_src = cbv_get_image_src( $img_id, 'full' );
+                $i = 1;
+                foreach ( $terms as $term ): 
+                  $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true ); 
               ?>
+              <?php 
+                if( $i == 4):
+                    $grid_text_col = get_field('grid_text', HOMEID);
+                      if($grid_text_col):
+              ?>
+              <li class="fl-product-grd-2">
+              <div class="fl-product-grd mHc">
+                <div class="fl-product-grd-inr">
+                  <?php if( !empty($grid_text_col['title']) ) printf('<h2 class="fl-h2 fl-pro-grd-title">%s</h2>', $grid_text_col['title']); ?>
+                  <!-- <h2 class="fl-h2 fl-pro-grd-title">Waarom LifteQ</h2> -->
+                  <div class="fl-pro-grd-des mHc2">  
+                  <?php 
+                    if( !empty($grid_text_col['description']) ) echo wpautop( $grid_text_col['description'] );
+                  ?>                  
+                    <!-- <ul class="reset-list clearfix">
+                      <li>10 jaar ervaring in montage- en kanaalliften</li>
+                      <li>Snelle levering (franco vanaf 150€)</li>
+                      <li>Diverse maatwerk oplossing voor uw project</li>
+                      <li>EU gecertificeerde machines</li>
+                    </ul> -->
+                  </div>                                        
+                </div>
+              </div>
+            </li>
+            <?php endif; endif; ?>
+
             <li>
               <div class="fl-product-grd mHc">
                 <div class="fl-product-grd-inr">
                   <div class="fl-pro-grd-img-cntlr mHc1">
-                    <a href="#" class="overlay-link"></a>
-                    <?php echo cbv_get_image_tag(  $catimg_src ); ?>
-                    <!-- <img src="<?php echo THEME_URI; ?>/assets/images/pro-img-1.jpg"> -->
+                    <a href="<?php echo esc_url( get_term_link( $term ) ); ?>" class="overlay-link"></a>
+                    <?php echo cbv_get_image_tag(  $thumbnail_id ); ?>
                   </div>
                   <div class="fl-pro-grd-des mHc2">                    
                     <div class="fl-pro-grd-heading">
-                      <!-- <?php printf('<strong>%s</strong>', $term->name); ?> -->
                       <h2 class="fl-h2 fl-pro-grd-title">
                         <a href="<?php echo esc_url( get_term_link( $term ) ); ?>"><?php echo $term->name; ?></a>
                       </h2>
@@ -62,7 +80,7 @@ get_header();
                 </div>
               </div>
             </li>
-            <?php } ?>
+            <?php  $i++; endforeach;  ?>
           
           </ul>
         </div>

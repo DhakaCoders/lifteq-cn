@@ -72,3 +72,5 @@ Stack trace:
 #3 {main}
   thrown in D:\xampp\htdocs\projects\2021\lifteq\lifteq-cn\themes\lifteq\front-page.php on line 44
 
+2021-05-19T10:00:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\projects\2021\lifteq\wp-admin\includes\class-wp-screen.php on line 1358
+
