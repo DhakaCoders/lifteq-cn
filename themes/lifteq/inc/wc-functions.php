@@ -159,42 +159,45 @@ if (!function_exists('add_custom_box_product_summary')) {
     function add_custom_box_product_summary() {
         global $product, $woocommerce, $post;
         $long_desc = $product->get_description();
-        $extravalue = get_post_meta( $product->get_id(), 'product_extra', true );
+        $levertijd = get_field('levertijd', $product->get_id());
+        $hefbereik = get_field('hefbereik', $product->get_id());
+        $vorklengte = get_field('vorklengte', $product->get_id());
+        $sepacfic = get_field('spacifications', $product->get_id());
         echo '<div class="summary-ctrl">';
-        echo '<div class="summary-hdr">';
-        echo '<h1 class="product_title entry-title hide-sm">'.$product->get_title().'</h1>';
-        echo '<div class="qty-price-wrap">';
-        echo '<span class="single-price-total">';
-        echo $product->get_price_html();
-        echo '</span>';
+        echo '<div class="summary-hdr">
+          <h1 class="product_title entry-title fl-h3 hide-sm">'.$product->get_title().'</h1>';
         echo '</div>';
-        if( !empty($long_desc) ){
-            echo '<div class="long-desc">';
-            echo wpautop( $long_desc, true );
-            echo '</div>';
-        }
-        echo '</div>';
-        echo '<div class="export-file"><p>LOREM IPSUM DOLOR SIT AMET</p></div>';
-        echo '<div class="meta-crtl">';
-        echo '<ul>';
-            echo '<li>';
-            echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in"><strong>'.esc_html__( 'Categorie:', 'woocommerce' ). '</strong>', '</span>' );
-            echo '</li>';
-            if ( wc_product_sku_enabled() && !empty($product->get_sku()) && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) :
-                echo '<li><span class="sku">';
-                echo '<strong>';
-                esc_html_e( 'SKU:', 'woocommerce' );
-                echo '</strong>';
-                echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' );
-                echo '</span></li>';
+        echo '<div class="meta-crtl"><ul>';
+           if( !empty($levertijd) ):
+            echo '<li><span class="posted_in"><strong>Levertijd</strong><a href="#"rel="tag">'.$levertijd.'</a></span></li>';
             endif;
-            if( !empty($extravalue) ) printf('<li><span class="extra"><strong>Extra:</strong>%s</span></li>', $extravalue);
-        echo '</ul>';
-        echo '</div>';
+            if( !empty($hefbereik) ):
+            echo '<li>
+              <span class="sku"><strong>Hefbereik</strong>'.$hefbereik.'</span>
+            </li>';
+            endif;
+            if( !empty($vorklengte) ):
+            echo '<li>
+              <span class="extra"><strong>Vorklengte</strong>'.$vorklengte.'</span>
+            </li>';
+            endif;
+        echo '</ul></div>';
+        echo '<div class="product-single-price">
+            <span class="single-price-total">';
+               echo $product->get_price_html().',-';
+            echo '</span>
+            <div class="price-title">Verzendklaar</div>
+          </div>';
         echo '<div class="price-quentity-ctrl">';
-          woocommerce_template_single_add_to_cart();
+              woocommerce_template_single_add_to_cart();
         echo '</div>';
+        if($sepacfic):
+            echo '<div class="fl-summary-long-desc">';
+            echo wpautop($sepacfic);
+            echo '</div>';
+        endif; 
         echo '</div>';
+
     }
 }
 

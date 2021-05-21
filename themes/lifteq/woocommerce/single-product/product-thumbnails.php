@@ -27,7 +27,29 @@ global $product;
 $attachment_ids = $product->get_gallery_image_ids();
 
 if ( $attachment_ids && $product->get_image_id() ) {
+    echo'<div class="thumbnails-cntlr"><div class="thumbnails">';
+if ( $product->get_image_id() ) {
+	$imgtag = wp_get_attachment_image( $product->get_image_id(), 'medium' );
+      echo '<div class="thumb-bg">';
+      echo '<div>';
+      		echo $imgtag;
+      echo '</div>';
+      echo '</div>';
+} else {
+	echo '<div class="thumb-bg">';
+	echo '<div>';
+	echo sprintf( '<img src="%s" alt="%s" class="wp-post-image" />', esc_url( wc_placeholder_img_src( 'woocommerce_single' ) ), esc_html__( 'Awaiting product image', 'woocommerce' ) );
+	echo '</div>';
+	echo '</div>';
+}
+
 	foreach ( $attachment_ids as $attachment_id ) {
-		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', wc_get_gallery_image_html( $attachment_id ), $attachment_id ); // phpcs:disable WordPress.XSS.EscapeOutput.OutputNotEscaped
+		$imgtag = wp_get_attachment_image( $attachment_id, 'medium' );
+		echo '<div class="thumb-bg">';
+		echo '<div>';
+      		echo $imgtag;
+      	echo '</div>';
+      	echo '</div>';
 	}
+	echo '</div></div>';
 }
