@@ -224,7 +224,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	-webkit-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 }
-.categories-sec-int ul li a:hover{
+.categories-sec-int ul li a:hover,
+.categories-sec-int ul li.current-menu-item a{
 	background: #3c3c3b;
 	border-color: #3c3c3b;
 }
