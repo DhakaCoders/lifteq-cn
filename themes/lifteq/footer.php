@@ -20,7 +20,7 @@
       <div class="col-md-12">
         <div class="ftr-top clearfix">
           <div class="ftr-top-col ftr-top-col-01">
-            <h6 class="ftr-top-col-title fl-h6"><?php _e( 'Producten', THEME_NAME ); ?></h6>
+            <h6 class="ftr-top-col-title fl-h6"><?php _e( 'Producten', 'lifteq' ); ?></h6>
             <?php 
               wp_nav_menu( array(
               'menu_class'     => 'clearfix reset-list',
@@ -30,7 +30,7 @@
             ?>
           </div>
           <div class="ftr-top-col ftr-top-col-02">
-            <h6 class="ftr-top-col-title fl-h6"><?php _e( 'Lifteq', THEME_NAME ); ?></h6>
+            <h6 class="ftr-top-col-title fl-h6"><?php _e( 'Lifteq', 'lifteq' ); ?></h6>
             <?php 
               wp_nav_menu( array(
               'menu_class'     => 'clearfix reset-list',
@@ -57,7 +57,7 @@
               <?php if( !empty($address) ): ?>
               <div class="ftc-dtls-addr ftc-dtls-col">
                 <strong class="ftc-dtls-col-title">hoofdkantoor</strong>
-                <a target="_blank" href="#">Noorderdiep 364 <br>9521BM Nieuw-Buinen</a>
+                <a target="_blank" href="<?php echo $gmaplink; ?>"><?php echo $address; ?></a>
               </div>
               <?php endif; ?>
               <?php if( !empty($email) ): ?>

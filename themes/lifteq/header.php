@@ -69,12 +69,16 @@
               <?php endif; ?>
               <div class="xs-contact show-md">
                 <ul class="reset-list">
+                  <?php if( !empty($telephone) ): ?>
                   <li class="tel">
-                    <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/xs-tel.png"></a>
+                    <a href="<?php echo phone_preg($telephone); ?>"><img src="<?php echo THEME_URI; ?>/assets/images/xs-tel.png"></a>
                   </li>
+                  <?php endif; ?>
+                  <?php if( !empty($email) ): ?>
                   <li class="mail">
-                    <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/xs-mail.png"></a>
+                    <a href="<?php echo $email; ?>"><img src="<?php echo THEME_URI; ?>/assets/images/xs-mail.png"></a>
                   </li>
+                <?php endif; ?>
                 </ul>
               </div>
             </div>
@@ -127,7 +131,7 @@
                   <span></span>
                   <span></span>
                 </div>
-                <strong>menu</strong>
+                <strong><?php _e( 'menu', 'lifteq' ); ?></strong>
               </div>
             </div>
           </div>
@@ -141,7 +145,7 @@
     <div class="mobile-main-menu">
       <div class="close-btn">
         <div class="xs-hambergar">
-          <strong>Menu sluiten</strong>          
+          <strong><?php _e( 'Menu sluiten', 'lifteq' ); ?></strong>          
           <div class="hambergar-icon">
             <img src="<?php echo THEME_URI; ?>/assets/images/humbarger-btn.png" alt="">
           </div>
@@ -149,7 +153,7 @@
       </div>
       <div class="mobile-menu-ctlr">
         <div class="mobile-menu-col mobile-menu-col-01">
-          <h6 class="mobile-menu-title fl-h6"><?php _e( 'Producten', THEME_NAME ); ?></h6>
+          <h6 class="mobile-menu-title fl-h6"><?php _e( 'Producten', 'lifteq' ); ?></h6>
           <div class="mobile-menu-col-dul">
             <?php 
               wp_nav_menu( array(
@@ -161,7 +165,7 @@
           </div>
         </div>
         <div class="mobile-menu-col mobile-menu-col-02">
-          <h6 class="mobile-menu-title fl-h6"><?php _e( 'Lifteq', THEME_NAME ); ?></h6>
+          <h6 class="mobile-menu-title fl-h6"><?php _e( 'Lifteq', 'lifteq' ); ?></h6>
           <?php 
               wp_nav_menu( array(
               'menu_class'     => 'clearfix reset-list',

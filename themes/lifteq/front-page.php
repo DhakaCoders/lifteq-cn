@@ -1,14 +1,10 @@
 <?php 
 get_header();
 ?>
-
-
-
 <?php
   $showhide_cats = get_field('showhide_cats', HOMEID);
   $termObj = get_field('categories', HOMEID);
   if( $showhide_cats ):
-    if($termObj):
 ?>
 
 <section class="product-category">
@@ -35,6 +31,7 @@ get_header();
                 $i = 1;
                 foreach ( $terms as $term ): 
                   $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true ); 
+                  $subtitle = get_field('subtitle', $term);
               ?>
               <?php 
                 if( $i == 4):
@@ -45,17 +42,10 @@ get_header();
               <div class="fl-product-grd mHc">
                 <div class="fl-product-grd-inr">
                   <?php if( !empty($grid_text_col['title']) ) printf('<h2 class="fl-h2 fl-pro-grd-title">%s</h2>', $grid_text_col['title']); ?>
-                  <!-- <h2 class="fl-h2 fl-pro-grd-title">Waarom LifteQ</h2> -->
                   <div class="fl-pro-grd-des mHc2">  
                   <?php 
                     if( !empty($grid_text_col['description']) ) echo wpautop( $grid_text_col['description'] );
                   ?>                  
-                    <!-- <ul class="reset-list clearfix">
-                      <li>10 jaar ervaring in montage- en kanaalliften</li>
-                      <li>Snelle levering (franco vanaf 150€)</li>
-                      <li>Diverse maatwerk oplossing voor uw project</li>
-                      <li>EU gecertificeerde machines</li>
-                    </ul> -->
                   </div>                                        
                 </div>
               </div>
@@ -74,7 +64,7 @@ get_header();
                       <h2 class="fl-h2 fl-pro-grd-title">
                         <a href="<?php echo esc_url( get_term_link( $term ) ); ?>"><?php echo $term->name; ?></a>
                       </h2>
-                      <p>Til tot maar liefst 180kg.</p>
+                      <?php if( !empty($subtitle) ) printf('<p>%s</p>', $subtitle); ?>
                     </div>                    
                   </div>                    
                 </div>
@@ -89,7 +79,6 @@ get_header();
     </div>
   </div>
 </section>
-  <?php endif; ?>
 <?php endif; ?>
 
 <section class="page-content-sec">
