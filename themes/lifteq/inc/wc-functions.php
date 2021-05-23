@@ -74,7 +74,10 @@ if (!function_exists('add_shorttext_below_title_loop')) {
         echo '<div class="fl-product-grd mHc">';
         if ( $product->is_on_sale() ) :
             echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . esc_html__( 'Sale!', 'woocommerce' ) . '</span>', $post, $product );
-        endif;  
+        endif; 
+        if( !empty( wc_stock_manage()) ){
+             wc_stock_manage();
+        }
         echo '<div class="fl-product-grd-inr">';
           echo '<div class="fl-pro-grd-img-cntlr mHc1">';
             echo '<a href="'.get_permalink( $product->get_id() ).'" class="overlay-link"></a>';
