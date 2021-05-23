@@ -370,6 +370,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	.mobile-menu-col .mobile-menu-title{
 		font-size: 25px;
 		margin-bottom: 35px;
+		text-transform: uppercase;
 	}
 	.mobile-menu-col ul li{
 		margin-bottom: 17px;
@@ -561,6 +562,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	.xs-menu-wrap{
 		margin-bottom: 12px;
 	}
+
 }
 @media(max-width: 479px){
 
@@ -586,6 +588,10 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li > a:hover{
 	}
 	.xs-contact ul li.mail a img{
 		max-height: 21px;
+	}
+	.xs-btn-inr a,
+	.xs-hambergar strong{
+		font-size: 25px;
 	}
 
 }

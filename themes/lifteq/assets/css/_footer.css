@@ -262,11 +262,11 @@
 }
 @media(max-width: 991px){
 	.ftr-top-col-01{
-		max-width: 250px;
+		max-width: 300px;
 		padding-top: 15px;
 	}
 	.ftr-top-col-02{
-		max-width: 135px;
+		max-width: 170px;
 		padding-top: 15px;
 	}
 	.ftr-top {
@@ -284,10 +284,6 @@
 	}
 	.ftr-top-col-03{
 		max-width: 300px;
-	}
-	.ftr-top-col-01{
-		max-width: 225px;
-		padding-right: 15px;
 	}
 	.ftr-btm-bank-icons img{
 		display: inline-block;
@@ -317,6 +313,14 @@
 		text-align: center;
 	}
 }
+@media(max-width: 830px){
+	.ftr-top-col-01{
+		max-width: 240px;
+	}
+	.ftr-top-col-02 {
+	    max-width: 165px;
+	}
+}
 @media(max-width: 767px){
 	.ftr-top-col-01,
 	.ftr-top-col-02{
@@ -339,19 +343,16 @@
 	}
 	.ftr-top-col-title.fl-h6{
 		font-size: 25px;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
-	.ftr-top-col ul li a{
-		font-size: 20px;
+	.ftr-top-col ul li a,
+	.ftc-dtls-col a,
+	.ftc-dtls-col a,
+	.ftr-btm-copyright p{
+		font-size: 18px;
 	}
 	.ftc-dtls-col-title{
 		font-size: 16px;
-	}
-	.ftc-dtls-col a{
-		font-size: 20px;
-	}
-	.ftr-btm-copyright p{
-		font-size: 20px;
 	}
 }
 @media(max-width: 639px){
