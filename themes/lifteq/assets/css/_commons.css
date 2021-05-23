@@ -378,7 +378,7 @@ ul{
 }
 .default-page-con ul li,
 ul li {
-	padding: 2px 0 2px 28px;
+	padding: 2px 0 0 28px;
     position: relative;
     line-height: 24px;
     color: #45454c;
