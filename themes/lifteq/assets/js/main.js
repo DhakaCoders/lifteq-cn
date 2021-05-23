@@ -209,7 +209,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    autoplay:true,
+    autoplay:false,
     asNavFor: '.thumbnails-cntlr .thumbnails',
   });
     $('.thumbnails-cntlr .thumbnails').slick({
@@ -218,7 +218,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
       asNavFor: '.main-img-crtlr',
       dots: false,
       arrows: false,
-      autoplay:true,
+      autoplay:false,
       focusOnSelect: true,
       vertical: true,
     });

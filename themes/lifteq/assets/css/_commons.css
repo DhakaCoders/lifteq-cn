@@ -180,7 +180,8 @@ ul.sub-menu,
 .reset-slect ul,
 ul.ab-top-menu,
 .fl-pagination-ctlr ul,
-.fl-pro-grd-des ul{
+.fl-pro-grd-des ul,
+.fl-products-cntlr ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -191,7 +192,8 @@ ul.sub-menu li,
 .reset-slect ul li,
 ul.ab-top-menu li,
 .fl-pagination-ctlr ul li,
-.fl-pro-grd-des ul li{
+.fl-pro-grd-des ul li,
+.fl-products-cntlr ul li{
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -203,7 +205,8 @@ ul.sub-menu li:before,
 .reset-slect ul li:before,
 ul.ab-top-menu li:before,
 .fl-pagination-ctlr ul li:before,
-.fl-pro-grd-des ul li:before{
+.fl-pro-grd-des ul li:before,
+.fl-products-cntlr ul li:before{
 	content: none!important;
 }
 
@@ -216,7 +219,12 @@ strong{
 }
 
 
-
+.product:after,
+.product:before{
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 /**

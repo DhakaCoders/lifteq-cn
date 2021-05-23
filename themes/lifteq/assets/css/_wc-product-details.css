@@ -11,12 +11,19 @@
 }*/
 
 .main-img-crtlr .woocommerce-product-gallery__image{
-	height: 612px;
-	background: #fff;
-	display: flex!important;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	width: 100%!important;
+}
+.main-img-crtlr{
+	height: 612px;
+	background: #fff;
+}
+.main-img-crtlr .slick-track,
+.main-img-crtlr .slick-list{
+	height: 100%!important;
+	width: 100%!important
 }
 .main-img-crtlr .woocommerce-product-gallery__image a{
 	display: block;
@@ -39,7 +46,7 @@
 	margin-bottom: 0px!important;
 }
 .single-product .fl-single-product .product{
-	display: flex;
+	display: block!important;
 	flex-wrap: wrap;
 }
 .thumbnails-cntlr .thumbnails{
@@ -157,8 +164,8 @@
 }
 .fl-single-product .woocommerce-product-gallery-wrap{
 	position: relative;
-	padding-left:196px;
-	margin-bottom: 67px;
+	padding-left:196px!important;
+	margin-bottom: 67px!important;
 }
 body.single-product .main-img-crtlr{
 	position: relative;
@@ -471,7 +478,7 @@ body.single-product div.product form.cart .button:hover{
     border-color: #000000!important;
     color: #fff!important;
 }
-body.single-product div.product form.cart .button:before{
+/*body.single-product div.product form.cart .button:before{
 	content: "";
 	position: absolute;
 	left: 85px;
@@ -482,7 +489,7 @@ body.single-product div.product form.cart .button:before{
 	background: url(../images/cart-icon-2.svg);
 	width: 24px;
 	height: 24px;
-}
+}*/
 .related.products.related-pro-crtl{
 	padding-top: 98px;
 	padding-bottom: 100px;
@@ -697,7 +704,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 /*	.woocommerce div.product .product_title{
 		font-size: 28px;
 	}*/
-	.main-img-crtlr .woocommerce-product-gallery__image{
+	.main-img-crtlr{
 		height:530px;
 	}
 	.main-img-crtlr .woocommerce-product-gallery__image a img{
@@ -772,7 +779,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 		font-size: 26px;
 		margin-bottom: 35px;
 	}
-	.main-img-crtlr .woocommerce-product-gallery__image{
+	.main-img-crtlr{
 		height:479px;
 	}
 	.main-img-crtlr .woocommerce-product-gallery__image a img{
@@ -788,7 +795,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 		max-width:160px;
 	}
 	.fl-single-product .woocommerce-product-gallery-wrap{
-		padding-left:170px;
+		padding-left:170px!important;
 	}
 	.default-page-con ul li::before, ul li::before{
 		width:18px;
@@ -835,7 +842,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
     	margin-left: auto;
     	margin-right: auto;
 	}
-	.main-img-crtlr .woocommerce-product-gallery__image{
+	.main-img-crtlr{
 		height:389px;
 	}
 	.thumbnails-cntlr .thumb-bg > div{
@@ -1050,7 +1057,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	/*.related.products ul li{*/
 	/*	width:50%!important;*/
 	/*}*/
-	.main-img-crtlr .woocommerce-product-gallery__image {
+	.main-img-crtlr {
 	    height: 342px;
 	}
 	.main-img-crtlr .woocommerce-product-gallery__image a img{
@@ -1073,7 +1080,7 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
     	max-width:130px;
     }
     .fl-single-product .woocommerce-product-gallery-wrap{
-    	padding-left:139px;
+    	padding-left:139px!important;
     }
 /*    .slick-vertical .thumb-bg.slick-slide{
     	border:none!important;
@@ -1272,9 +1279,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 		max-width: 110px;
 	}
 	.fl-single-product .woocommerce-product-gallery-wrap{
-		padding-left:116px;
+		padding-left:116px!important;
 	}
-	.main-img-crtlr .woocommerce-product-gallery__image{
+	.main-img-crtlr{
 		height:326px;
 	}
 	.main-img-crtlr .woocommerce-product-gallery__image a img{
@@ -1365,9 +1372,9 @@ body.single-product .bootstrap-select .dropdown-toggle .filter-option-inner-inne
 	    max-width: 85px;
 	}
 	.fl-single-product .woocommerce-product-gallery-wrap{
-	    padding-left: 91px;
+	    padding-left: 91px!important;
 	}
-	.main-img-crtlr .woocommerce-product-gallery__image{
+	.main-img-crtlr{
 	    height: 288px;
 	}
 	.main-img-crtlr .woocommerce-product-gallery__image a img{

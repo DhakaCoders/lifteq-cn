@@ -3,6 +3,7 @@
 }
 .page-content-cntrl h2{
 	line-height: 1.1;
+	margin-bottom: 15px;
 }
 .page-content-cntrl p{
 	line-height: 1.2;
@@ -125,7 +126,15 @@
 .pb{
 	padding-bottom: 198px;
 }
-
+.fl-products-cntlr .products bdi span.woocommerce-Price-currencySymbol{
+	display: none;
+}
+.woocommerce-pagination{
+	padding-top: 20px;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+	font-size: 18px;
+}
 /* ================= */
 /* == responsive == */
 /* =============== */
