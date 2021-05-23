@@ -298,6 +298,12 @@ input.select2-search__field{
 .woocommerce table.shop_table{
 	border-collapse: collapse;
 }
+.woocommerce div.product p.stock{
+	margin-bottom: 0;
+}
+.woocommerce div.product .price-quentity-ctrl p.stock{
+	margin-bottom: 20px;
+}
 @media(max-width: 991px){
 	.woocommerce #customer_details .col-1,
 	.woocommerce #customer_details .col-2 {
