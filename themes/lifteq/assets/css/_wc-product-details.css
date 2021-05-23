@@ -594,7 +594,7 @@ body.single-product .fl-single-product span.onsale,
 body.single-product .fl-single-product span.seller-flash{
 	width: 100px!important;
     right: auto!important;
-    top: 10px!important;
+    top: 20px!important;
     left: 222px!important;
 }
 
@@ -1263,7 +1263,8 @@ bdi .woocommerce-Price-currencySymbol{
     }
 
     span.onsale,
-    body.single-product .fl-single-product span.onsale, body.single-product .fl-single-product span.seller-flash{
+    body.single-product .fl-single-product span.onsale, body.single-product .fl-single-product span.seller-flash,
+    .fl-product-grd .out-of-stock{
         padding: 6px 12px!important;
         font-size: 10px!important;
         width: auto!important;
