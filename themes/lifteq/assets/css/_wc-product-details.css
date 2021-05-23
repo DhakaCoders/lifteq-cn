@@ -14,7 +14,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	width: 100%!important;
+	/*width: 100%!important;*/
 }
 .main-img-crtlr{
 	height: 613px;
@@ -23,7 +23,7 @@
 .main-img-crtlr .slick-track,
 .main-img-crtlr .slick-list{
 	height: 100%!important;
-	width: 100%!important
+/*	width: 100%!important*/
 }
 .main-img-crtlr .woocommerce-product-gallery__image a{
 	display: block;
@@ -684,6 +684,9 @@ bdi .woocommerce-Price-currencySymbol{
 	font-weight: 600;
 	color: #3c3c3b;
 }
+/*.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2){
+	width: 100%!important;
+}*/
 /* ================= */
 /* == responsive == */
 /* =============== */

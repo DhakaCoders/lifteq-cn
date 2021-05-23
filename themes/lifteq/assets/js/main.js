@@ -210,6 +210,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     arrows: false,
     fade: true,
     autoplay:false,
+    horizontal:true,
     asNavFor: '.thumbnails-cntlr .thumbnails',
   });
     $('.thumbnails-cntlr .thumbnails').slick({
