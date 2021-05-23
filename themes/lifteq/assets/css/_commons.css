@@ -363,7 +363,7 @@ form .dropdown-menu li a{
 .hmProdctGrdsSlider .hmProdctGrdsSlideItme:first-child,
 .main-img-crtlr .woocommerce-product-gallery__image:first-child,
 .thumbnails .thumb-bg:first-child{
-	display: none;
+	display: block;
 }
 
 .hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme,
