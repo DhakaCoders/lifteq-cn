@@ -736,7 +736,8 @@ bdi .woocommerce-Price-currencySymbol{
 	.meta-crtl ul li > span{
 		font-size:20px;
 	}
-	span.single-price-total ins span bdi{
+	span.single-price-total ins span bdi,
+	.single-price-total bdi, .single-price-total{
 		font-size:25px;
 	}
 }
