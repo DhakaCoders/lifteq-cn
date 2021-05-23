@@ -516,8 +516,16 @@ body.woocommerce-account .login-register-wrap a:hover {
 body.woocommerce-account .woocommerce form .form-row label, 
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row label,
 body.woocommerce-checkout .woocommerce-shipping-fields__field-wrapper .form-row label{
-    color: #243444;
+    color: #3c3c3b;
     font-weight:600;
+}
+body.woocommerce-account .woocommerce form .form-row label{
+    display: block!important;
+    text-align: left!important;
+}
+body.woocommerce-account .woocommerce form .form-row span em{
+    font-size: 16px;
+    padding-top: 5px;
 }
 body.woocommerce-account .woocommerce button[type=submit],
 body.woocommerce-account .woocommerce button[type=button]{
@@ -787,11 +795,19 @@ body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#b
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_address_1_field,{
     padding-right: 13px!important;
 }
+body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_address_1_field,
+body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_city_field,
+body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_postcode_field{
+    width: 100%;
+}
 
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_city_field,
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_house_field,
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#vat_number_field{
     padding-left: 13px!important;
+}
+body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_city_field{
+    padding-left: 0!important;
 }
 body.woocommerce-account .woocommerce form .form-row-first,
 body.woocommerce-account .woocommerce-page form .form-row-first
@@ -801,7 +817,7 @@ body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper #billing_fi
 body.woocommerce-checkout .woocommerce-shipping-fields .form-row-first,
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_postcode_field,
 body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row#billing_address_1_field{
-    padding-right: 13px!important;
+    padding-right: 0!important;
 }
 body.woocommerce-checkout .checkout-terms{
     border-top: 1px solid #ECEEEF;
@@ -826,7 +842,7 @@ body.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .selection 
 body.woocommerce-checkout .woocommerce-shipping-fields .selection .select2-selection{
     width: 100%;
     height: 50px!important;
-    border: 1px solid #EDEDED!important;
+    border: 2px solid #EDEDED!important;
     color: #707C88;
     padding: 5px 18px 5px;
     font-size: 15px;
@@ -1799,6 +1815,10 @@ body.woocommerce-checkout section.checkout-top-sec{
     body.woocommerce-orders .woocommerce-account-grds-cntlr .woocommerce-MyAccount-content{
         float:right!important;
     }
+    .woocommerce #payment #place_order, 
+    .woocommerce-page #payment #place_order{
+        margin-left: 0;
+    }
 }
 @media(max-width: 767px){
     body.login-register .to-top-btn-cntlr,
@@ -2509,6 +2529,9 @@ body.woocommerce-checkout section.checkout-top-sec{
     }
     body.woocommerce-checkout .woocommerce-input-wrapper input{
         top:5px;
+    }
+    .woocommerce-additional-fields{
+        padding-top: 40px;
     }
 }
 

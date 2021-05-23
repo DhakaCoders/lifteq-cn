@@ -33,9 +33,9 @@ ul.select2-results__options li{
 .woocommerce a.button, 
 .woocommerce button.button, 
 .woocommerce input.button{
-	background: #3f3f3f!important;
+	background: #12a19a!important;
+    border: 2px solid #12a19a;
 	text-transform: uppercase;
-    border: 2px solid #3f3f3f!important;
     color: #fff!important;
     border-radius: 0!important;
 }
@@ -43,9 +43,10 @@ ul.select2-results__options li{
 .woocommerce #respond input#submit:hover, 
 .woocommerce a.button:hover, 
 .woocommerce button.button:hover, 
-.woocommerce input.button:hover{
-	background: #fff!important;
-	color: #000!important;
+.woocommerce input.button:hover,
+body.woocommerce-cart .cart_totals .wc-proceed-to-checkout a.checkout-button:hover{
+	background: transparent!important;
+    color: #12a19a!important;
 }
 body.single-product .pro-cart-btn button:hover svg{
 	fill: #F3BF00!important;
@@ -324,6 +325,11 @@ input.select2-search__field{
 	}
 }
 
+@media(max-width: 767px){
+	.woocommerce{
+		padding-top: 30px;
+	}
+}
 
 
 @media(max-width: 575px){
