@@ -14,7 +14,9 @@ a, a:hover, a:focus, button:hover, button:focus{
 	text-decoration: none;
 	outline: 0;
 }
-
+a:hover{
+	color: #3c3c3b;
+}
 body {
     background: #ffffff;
     color: #b3b3b3;
@@ -181,7 +183,8 @@ ul.sub-menu,
 ul.ab-top-menu,
 .fl-pagination-ctlr ul,
 .fl-pro-grd-des ul,
-.fl-products-cntlr ul{
+.fl-products-cntlr ul,
+.woocommerce-order ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -193,7 +196,8 @@ ul.sub-menu li,
 ul.ab-top-menu li,
 .fl-pagination-ctlr ul li,
 .fl-pro-grd-des ul li,
-.fl-products-cntlr ul li{
+.fl-products-cntlr ul li,
+.woocommerce-order ul li{
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -206,7 +210,8 @@ ul.sub-menu li:before,
 ul.ab-top-menu li:before,
 .fl-pagination-ctlr ul li:before,
 .fl-pro-grd-des ul li:before,
-.fl-products-cntlr ul li:before{
+.fl-products-cntlr ul li:before,
+.woocommerce-order ul li:before{
 	content: none!important;
 }
 
