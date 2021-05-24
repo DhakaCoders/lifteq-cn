@@ -77,6 +77,9 @@ body.woocommerce-cart .product-thumbnail .product-name{
 body.woocommerce-cart .product-quantity {
 
 }
+body.woocommerce-cart .product-quantity:before{
+    margin-top: 3px;
+}
 body.woocommerce-cart .product-quantity .quantity{
 	display: flex;
 	align-items: center;

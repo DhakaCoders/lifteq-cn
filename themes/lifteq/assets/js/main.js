@@ -5,9 +5,9 @@ var CustomMapStyles  = [{"featureType":"water","elementType":"geometry","stylers
 
 var windowWidth = $(window).width();
 $('.navbar-toggle').on('click', function(){
-	$('#mobile-nav').slideToggle(300);
+  $('#mobile-nav').slideToggle(300);
 });
-	
+  
 
 $('.main-nav > ul > li.cart > a').append('<span></span>');
 var cartNumber = $('.cart-nember').text();
@@ -33,7 +33,30 @@ if($('.mHc4').length){
 if($('.mHc5').length){
   $('.mHc5').matchHeight();
 };
-
+$(window).load(function() {
+//matchHeightCol
+  if($('.mHc').length){
+    $('.mHc').matchHeight();
+  };
+  if($('.mHc1').length){
+    $('.mHc1').matchHeight();
+  };
+  if($('.mHc2').length){
+    $('.mHc2').matchHeight();
+  };
+  if($('.mHc3').length){
+    $('.mHc3').matchHeight();
+  };
+  if($('.mHc4').length){
+    $('.mHc4').matchHeight();
+  };
+  if($('.mHc5').length){
+    $('.mHc5').matchHeight();
+  };
+  if($('.mHc6').length){
+    $('.mHc6').matchHeight();
+  };
+});
 
 //$('[data-toggle="tooltip"]').tooltip();
 
